@@ -5,7 +5,7 @@ from flask_httpauth import HTTPBasicAuth
 app = Flask(__name__)
 auth = HTTPBasicAuth()
 users = [
-    {'username': 'harvy', 'password': '111111'},
+    {'username': 'harvy', 'password': '123456'},
     {'username': 'Michael', 'password': '123456'}
 ]
 
